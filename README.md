@@ -37,7 +37,9 @@ Navigate to the project directory and run the following command to install the r
 Create a .env file in the root of your project and define the necessary environment variables on new lines in the form of NAME=VALUE. Example:
 
 PORT=5000
+
 MONGODB_URI=mongodb://localhost:27017/yourDatabase
+
 JWT_SECRET=yourSecretKey
 
 # Start MongoDB
